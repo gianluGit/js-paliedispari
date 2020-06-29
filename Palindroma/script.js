@@ -5,11 +5,12 @@ var parola = prompt("Dammi una parola");
 console.log(parola.length);
 
 var parolaInversa = invertiParola(parola);
+console.log(parolaInversa);
 
 
 
 
-// console.log(parolaInversa);
+
 
 if (parolaInversa == parola) {
   console.log("Questa parola è palindroma");
